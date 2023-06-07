@@ -11,8 +11,6 @@ The CSV Comparison and Deletion Script is a Python script designed to compare en
 
 The script utilizes the `argparse` module to handle command-line arguments. The user can provide the paths to the two CSV files using either the long options (`--file1` and `--file2`) or the short options (`-f1` and `-f2`).
 
-The script is useful in scenarios where you need to compare and delete specific entries from one CSV file based on the entries in another CSV file. It provides a flexible and customizable solution for manipulating CSV data and can be easily integrated into larger data processing pipelines or workflows.
-
 Note: The script assumes that the CSV files follow a standard format with comma-separated values and that the first column of each file contains the entries to be compared.
 
 how to use: 
